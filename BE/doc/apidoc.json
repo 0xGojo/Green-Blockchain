@@ -1,0 +1,21 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "description": "Api doc of Restfull API",
+  "title": "Api Doc",
+  "header": {
+    "title": "Example header",
+    "filename": "./src/header.md"
+  },
+  "footer": {
+    "title": "Example footer",
+    "filename": "./src/footer.md"
+  },
+  "template": {
+    "withCompare": true
+  },
+  "order": [
+    "User",
+    "OAuth"
+  ]
+}

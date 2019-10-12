@@ -1,0 +1,5 @@
+.trusted-by-wrapper {
+  padding: 50px 0;
+  background-color: aliceblue; }
+  .trusted-by-wrapper .trusted-by-flex {
+    align-items: baseline; }

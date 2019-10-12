@@ -1,0 +1,26 @@
+.customer-reviews-wrapper {
+    padding: 0 0 100px 0;
+    .customer-name-rounded {
+        width: 55px;
+        height: 55px;
+        margin: 0 auto;
+        padding: 19px 0;
+        background-color: #f46036;
+        border-radius: 50%;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .customer-reviews-name {
+        font-size: 16px;
+    }
+    .customer-reviews-comment {
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: -0.22px;
+        text-align: center;
+        color: #141415;
+    }
+}

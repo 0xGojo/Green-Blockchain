@@ -1,0 +1,41 @@
+.stories-wrapper {
+  padding: 0 0 100px 0; }
+  .stories-wrapper .stories-desc {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #141415;
+    margin: 0 auto;
+    width: 80%; }
+  .stories-wrapper .stories-flex .stories-flex-item .stories-flex-item-background {
+    background-image: url(../../../../assets/images/banner/london-stories.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer; }
+    .stories-wrapper .stories-flex .stories-flex-item .stories-flex-item-background .layer-stories {
+      background-color: #00000030;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px; }
+    .stories-wrapper .stories-flex .stories-flex-item .stories-flex-item-background .stories-text-fix-bottom {
+      position: absolute;
+      bottom: 10px; }
+    .stories-wrapper .stories-flex .stories-flex-item .stories-flex-item-background h6 {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 17px; }
+    .stories-wrapper .stories-flex .stories-flex-item .stories-flex-item-background .stories-sub-title {
+      font-size: 13px;
+      color: #ffffff;
+      font-weight: 600; }

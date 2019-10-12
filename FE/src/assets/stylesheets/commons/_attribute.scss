@@ -1,0 +1,138 @@
+@import "color";
+
+// define margin-left
+.mgl-5 {
+    margin-left: 5px !important;
+}
+.mgl-10 {
+    margin-left: 10px !important;
+}
+.mgl-15 {
+    margin-left: 15px !important;
+}
+.mgl-20 {
+    margin-left: 20px !important;
+}
+
+// define margin-right
+.mgr-5 {
+    margin-right: 5px !important;
+}
+.mgr-10 {
+    margin-right: 10px !important;
+}
+.mgr-15 {
+    margin-right: 15px !important;
+}
+.mgr-20 {
+    margin-right: 20px !important;
+}
+
+// define margin-right
+.mgb-5 {
+    margin-bottom: 5px !important;
+}
+.mgb-10 {
+    margin-bottom: 10px !important;
+}
+.mgb-12 {
+    margin-bottom: 12px !important;
+}
+.mgb-15 {
+    margin-bottom: 15px !important;
+}
+.mgb-20 {
+    margin-bottom: 20px !important;
+}
+.mgb-25 {
+    margin-bottom: 25px !important;
+}
+.mgb-30 {
+    margin-bottom: 30px !important;
+}
+
+// define margin-top
+.mgt-5 {
+    margin-top: 5px !important;
+}
+.mgt-10 {
+    margin-top: 10px !important;
+}
+.mgt-15 {
+    margin-top: 15px !important;
+}
+.mgt-20 {
+    margin-top: 20px !important;
+}
+
+// define padding top
+.pdt-50 {
+    padding-top: 50px;
+}
+
+// define padding bottom
+.pdb-50 {
+    padding-bottom: 50px;
+}
+
+// z-index
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.z-index-11 {
+    z-index: 11;
+}
+
+.z-index-12 {
+    z-index: 12;
+}
+.z-index-13 {
+    z-index: 13;
+}
+.z-index-14 {
+    z-index: 14;
+}
+
+// text tags
+.h1-custom-w {
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: -0.58px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: unset !important;
+}
+
+.p-custom-1 {
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 0.13px;
+    text-align: center;
+    color: #a6a6aa;
+}
+
+.text-primary-0 {
+    color: $color-primary;
+
+    &:hover {
+        color: $color-primary !important;
+    }
+}
+
+.border-hr-custom {
+    border-top: 1px solid $color-white-25 !important;
+    margin-top: 55px !important;
+    margin-bottom: 55px !important;
+}
+
+.mgr-unset {
+    margin-right: unset !important;
+}

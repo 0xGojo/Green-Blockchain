@@ -59,3 +59,19 @@ typings/
 
 # next.js build output
 .next
+
+.DS_Store
+.idea
+
+FE/.DS_Store
+FE/.idea
+FE/node_modules/
+FE/package-lock.json
+
+
+BE/.DS_Store
+BE/.idea
+BE/node_modules/
+BE/doc/dist/
+BE/package-log.json
+BE/env/lcl.env

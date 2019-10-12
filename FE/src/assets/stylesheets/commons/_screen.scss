@@ -1,0 +1,28 @@
+// desktop and ipad pro
+$screen-lg-max: 1199px;
+$screen-lg-min: $screen-lg-max + 1;
+
+// small desktop and tablet (ipad,...)
+$screen-md-max: 991px;
+$screen-md-min: $screen-md-max + 1;
+
+// under ipad mini
+$screen-sm-max: 767px;
+$screen-sm-min: $screen-sm-max + 1;
+
+// tablet...
+$screen-xs-max: 575px;
+$screen-xs-min: $screen-xs-max + 1;
+
+// iphone 6, 7, 8
+$screen-small-430: 430px;
+
+// iphone 5
+$screen-small-320: 320px;
+
+// define mobile first
+$screen-ipad-horizontal-min: 1024px;
+$screen-ipad-vertical-min: $screen-sm-max + 1;
+$screen-tablet-min: 480px;
+$screen-iphone-min: 320px;
+$screen-small-phone-min: 240px;

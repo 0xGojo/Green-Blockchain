@@ -1,0 +1,52 @@
+
+.ant-checkbox-inner {
+    border-color: $color-primary !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: $color-primary !important;
+
+    
+}
+
+.ant-checkbox-checked {
+    &::after {
+        border: #ffffff !important;
+    }
+}
+
+.btn {
+    // padding: 0.540rem .75rem 0.377rem !important;
+}
+.ant-btn {
+    font-size: 15px !important;
+    // padding: 0.540rem .75rem 0.377rem !important;
+}
+.ant-input-lg {
+    padding: 8px 11px 6px;
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    // height: 20px;
+    line-height: 20px;
+    // background: #364d79;
+    overflow: hidden;
+}
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+.ant-carousel .slick-dots-bottom {
+    margin-bottom: -35px;
+}
+.ant-carousel .slick-dots li button {
+    background: #353131;
+}
+.ant-carousel .slick-dots li.slick-active button {
+    background-color: #f46036 !important;
+}
+.ant-message .anticon {
+    position: relative;
+    top: -2px;
+    margin-right: 8px;
+    font-size: 16px;
+}

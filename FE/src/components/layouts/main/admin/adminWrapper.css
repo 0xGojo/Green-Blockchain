@@ -1,0 +1,12 @@
+#admin-wrapper #page-content-wrapper {
+  min-width: 100vw;
+  background: #dddde0; }
+  #admin-wrapper #page-content-wrapper .nav-link {
+    color: #000000 !important; }
+  #admin-wrapper #page-content-wrapper .page-content {
+    padding: 40px 132px; }
+
+@media (min-width: 768px) {
+  #admin-wrapper #page-content-wrapper {
+    min-width: 0;
+    width: 100%; } }

@@ -1,0 +1,63 @@
+style.
+    .layout {
+        font-size: 14px;
+        background: whitesmoke;
+        padding: 15px 30px;
+        margin: auto;
+        width: 90%;
+        display: block;
+    }
+
+    .header {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold
+    }
+
+    .content {
+        padding: 5px;
+        padding-top: 20px;
+        display: block;
+        width: 100%
+    }
+
+    .bottom {
+        text-align: left;
+        margin-left: 50%
+    }
+
+    .agin {
+        text-align: center;
+        margin: 20px 0px
+    }
+
+    .code {
+        font-size: 25px;
+        text-align: center;
+    }
+
+div.layout
+    img(src= appDomain + "/assets/images/logo.png")
+
+    div.header Email authentication code
+    div.content
+        div Dear user,
+        br
+        div This is your authentication code
+        br
+        br
+        div.code #{code}
+        br
+        br
+        div Please input 6-digits authentication code to an application screen.
+        br
+        br
+        div *If you are not the intended recipient, please notify us immediately by returning it to the sender and delete this copy from your system. Thank you for your cooperation.
+        br
+        br
+        br
+    div.bottom
+        div "====================="
+        div VidOps Customer
+        div support@vidops.com
+    div.agin =============================================

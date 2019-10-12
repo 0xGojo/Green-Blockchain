@@ -1,0 +1,23 @@
+.client-wrapper .navbar .dropdown-toggle::after {
+  display: none; }
+
+.mgt-cus {
+  margin-top: -2px; }
+
+.scrolled {
+  background-color: #141415 !important;
+  transition: .3s ease 0.1s;
+  -webkit-transition: .3s ease-in 0.1s;
+  -moz-transition: .3s ease-in 0.1s; }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+  color: transparent !important; }
+
+.navbar-toggler-icon {
+  background-image: url(../../../../assets/images/icons/open-menu.svg) !important;
+  background-size: 110% 110% !important;
+  margin-top: 5px !important; }
+
+.isShowMenu .navbar-toggler-icon {
+  background-image: url(../../../../assets/images/icons/close-menu.svg) !important; }

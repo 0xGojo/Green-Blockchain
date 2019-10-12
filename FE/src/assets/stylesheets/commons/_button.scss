@@ -1,0 +1,39 @@
+@import "color";
+
+.btn-primary-0 {
+    background-color: $color-primary;
+    border-color: $color-primary;
+    color: $color-white;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $color-white !important;
+        border-color: $color-primary !important;
+        color: $color-primary !important;
+    }
+
+    &:active, &:focus {
+        background-color: #f7f2f2 !important;
+        border-color: $color-primary !important;
+        color: $color-primary !important;
+    }
+}
+
+.btn-second-0 {
+    background-color: $color-grey;
+    border-color: $color-grey;
+    color: $color-white;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $color-white !important;
+        border-color: $color-grey !important;
+        color: $color-grey !important;
+    }
+
+    &:active, &:focus {
+        background-color: #f7f2f2 !important;
+        border-color: $color-grey !important;
+        color: $color-grey !important;
+    }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="223px" height="34px" viewBox="0 0 223 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Rating/Stars</title>
+    <desc>Created with Sketch.</desc>
+    <g id="End-users-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[Desktop]-VidOps-Landing-page-07082019-Approved" transform="translate(-609.000000, -2523.000000)">
+            <g id="Reviews" transform="translate(108.000000, 2380.000000)">
+                <g id="Misc/Rating/Stars" transform="translate(499.000000, 140.000000)">
+                    <g id="icons/star/star_fill" transform="translate(186.666667, 0.000000)">
+                        <rect id="Box-24pt" x="0" y="0" width="40" height="40"></rect>
+                        <polygon id="🎨-Style" fill="#FE9939" fill-rule="evenodd" points="20 29.9166667 9.22393704 36.4986449 12.1537837 24.2160569 2.56396387 16.0013551 15.1507717 14.9922765 20 3.33333333 24.8492283 14.9922765 37.4360361 16.0013551 27.8462163 24.2160569 30.776063 36.4986449"></polygon>
+                    </g>
+                    <g id="icons/star/star_fill" transform="translate(140.000000, 0.000000)">
+                        <rect id="Box-24pt" x="0" y="0" width="40" height="40"></rect>
+                        <polygon id="🎨-Style" fill="#FE9939" fill-rule="evenodd" points="20 29.9166667 9.22393704 36.4986449 12.1537837 24.2160569 2.56396387 16.0013551 15.1507717 14.9922765 20 3.33333333 24.8492283 14.9922765 37.4360361 16.0013551 27.8462163 24.2160569 30.776063 36.4986449"></polygon>
+                    </g>
+                    <g id="icons/star/star_fill" transform="translate(93.333333, 0.000000)">
+                        <rect id="Box-24pt" x="0" y="0" width="40" height="40"></rect>
+                        <polygon id="🎨-Style" fill="#FE9939" fill-rule="evenodd" points="20 29.9166667 9.22393704 36.4986449 12.1537837 24.2160569 2.56396387 16.0013551 15.1507717 14.9922765 20 3.33333333 24.8492283 14.9922765 37.4360361 16.0013551 27.8462163 24.2160569 30.776063 36.4986449"></polygon>
+                    </g>
+                    <g id="icons/star/star_fill" transform="translate(46.666667, 0.000000)">
+                        <rect id="Box-24pt" x="0" y="0" width="40" height="40"></rect>
+                        <polygon id="🎨-Style" fill="#FE9939" fill-rule="evenodd" points="20 29.9166667 9.22393704 36.4986449 12.1537837 24.2160569 2.56396387 16.0013551 15.1507717 14.9922765 20 3.33333333 24.8492283 14.9922765 37.4360361 16.0013551 27.8462163 24.2160569 30.776063 36.4986449"></polygon>
+                    </g>
+                    <g id="icons/star/star_fill">
+                        <rect id="Box-24pt" x="0" y="0" width="40" height="40"></rect>
+                        <polygon id="🎨-Style" fill="#FE9939" fill-rule="evenodd" points="20 29.9166667 9.22393704 36.4986449 12.1537837 24.2160569 2.56396387 16.0013551 15.1507717 14.9922765 20 3.33333333 24.8492283 14.9922765 37.4360361 16.0013551 27.8462163 24.2160569 30.776063 36.4986449"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
