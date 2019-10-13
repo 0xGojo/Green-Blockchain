@@ -6,6 +6,15 @@ contract GreenBlockchain {
      **/
     // This contract address will execute the transaction and save process data in storage of present contract
     address private contractLogicAddress;
+    address private owner;
+
+    /**
+    * Modify FIELD
+    **/
+    modifier ownerOnly {
+        require(msg.sender == owner);
+        _;
+    }
 
     /**
      * Event FIELD
@@ -15,7 +24,7 @@ contract GreenBlockchain {
     /**
      * Constructor FIELD
      **/
-    constructor(address _contractLogicAddress) payable public {
+    constructor(address _contractLogicAddress) payable public ownerOnly {
         contractLogicAddress = _contractLogicAddress;
     }
 
