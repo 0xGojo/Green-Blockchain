@@ -110,7 +110,7 @@ contract GreenBlockchainLogic {
     event Rating(uint indexed id, uint32 longtitude, uint32 latitude, uint8 _rate);
     event OpenWork(uint indexed id, uint256 bountyAmount, bool assignToAdmin);
     event CloseWork(uint id);
-    event WorkDone(uint id, address reciever);
+    event WorkDone(uint id, address reciever, uint8 rating);
     event FundingCoin(address reciever, uint256 amount);
     event Donation(address reciever, uint256 amount, uint id);
     event Withdraw(address reciever, uint256 amount);
@@ -160,18 +160,18 @@ contract GreenBlockchainLogic {
     }
     
     // TODO: the feature assign to admin not enabled yet
-    function workDone (uint _id, address _reciever) external {
+    function workDone (uint _id, address _receiver, uint8 _rating) external {
         require(issues[_id].issueOwner == msg.sender , "You should be owner of this issue to make this action !!");
         require(issues[_id].state == issueState.open, "Wrong issue's state !!!");
         
         issues[_id].state = issueState.done;
-        balances[_reciever] = balances[_reciever].add(issues[_id].amount);
+        balances[_receiver] = balances[_receiver].add(issues[_id].amount);
         
-        emit WorkDone(_id, _reciever);
+        emit WorkDone(_id, _receiver, _rating);
     }
     
     // this function will help 
-    function ratingFriendlyPlaces (uint id, uint32 _longtitude, uint32 _latitude, uint8 _rate) external {
+    function ratingFriendlyPlaces (uint id, uint32 _longitude, uint32 _latitude, uint8 _rate) external {
         require(_rate < 51, "the rating number must be less or equal than 50");
         
         if(locations[id].active) {
@@ -180,22 +180,22 @@ contract GreenBlockchainLogic {
         } else {
             locations[id] = Location({
                 rating : _rate,
-                longtitude : _longtitude,
+                longtitude : _longitude,
                 latitude : _latitude,
                 totalRate : 1,
                 active : true
             });   
         }
         
-        emit Rating(id, _longtitude, _latitude, _rate);
+        emit Rating(id, _longitude, _latitude, _rate);
     } 
     
-    // fund to group or oganisation who helping save the world
-    function fundingCoin (address payable _reciever, uint256 _amount) external ownerOnly { 
+    // fund to group or organisation who helping save the world
+    function fundingCoin (address payable _receiver, uint256 _amount) external ownerOnly {
         require(address(this).balance >= _amount);
-        _reciever.transfer(_amount);
+        _receiver.transfer(_amount);
         
-        emit FundingCoin(_reciever, _amount);
+        emit FundingCoin(_receiver, _amount);
     }
     
     function donate (address _address, uint _issueId, uint256 _amount) external payable {
