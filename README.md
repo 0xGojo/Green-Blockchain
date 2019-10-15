@@ -1,4 +1,4 @@
-##<center>GreenBlockchain</center>
+##GreenBlockchain
 
 
 Our mission
@@ -25,8 +25,10 @@ Getting started with GreenBlockchain
  
  **Set system up**
  1. Clone GreenBlockchain.
+ <br>
  `git clone https://github.com/thach4567/Green-Blockchain`
  2. Move to GreenBlockchain dir.
+ <br>
  `cd Green-Blockchain`
  3. Run the project locally and enjoy your experience with platform
     ```$xslt
