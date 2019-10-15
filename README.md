@@ -1,9 +1,9 @@
-`Green Blockchain`
+##<center>GreenBlockchain</center>
 
 
 Our mission
 -------------
-Green blockchain is a friendly environment platform. This platform incentives everyone to stand up and protect environment 
+GreenBlockchain is a friendly environment platform. This platform incentives everyone to stand up and protect environment 
 which falling in red alarm pollution through rewardable issues and rating.
 
 Features
@@ -25,10 +25,8 @@ Getting started with GreenBlockchain
  
  **Set system up**
  1. Clone GreenBlockchain.
- <br/>
  `git clone https://github.com/thach4567/Green-Blockchain`
  2. Move to GreenBlockchain dir.
- <br/>
  `cd Green-Blockchain`
  3. Run the project locally and enjoy your experience with platform
     ```$xslt
@@ -44,7 +42,7 @@ Getting started with GreenBlockchain
  
  Special Thanks to 
  -----------
- * [Dung Dang Vuong](https://www.linkedin.com/in/dang-vuong-dung-56265114b) - Fullstack developer
+ * [Dung Dang Vuong](https://www.linkedin.com/in/dang-vuong-dung-56265114b) - Fullstack developer :+1:
  * [Toan Bui Viet]() 
  
  Calling for contribution 
