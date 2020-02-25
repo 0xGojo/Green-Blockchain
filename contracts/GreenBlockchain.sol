@@ -24,7 +24,7 @@ contract GreenBlockchain {
     /**
      * Constructor FIELD
      **/
-    constructor(address _contractLogicAddress) payable public ownerOnly {
+    constructor(address _contractLogicAddress) payable public {
         contractLogicAddress = _contractLogicAddress;
     }
 
